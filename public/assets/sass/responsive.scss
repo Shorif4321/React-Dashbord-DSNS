@@ -1,0 +1,789 @@
+body {
+
+    // Medium Devices
+    @media screen and (max-width: 991.98px) {
+        .section_gap {
+            padding: 64px 0;
+        }
+
+
+        // Header
+        .header {
+            padding: 8px 0;
+
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        margin-top: 10px;
+                        width: 80px !important;
+                        transition: none;
+
+                        .nav-link {
+
+                            img {
+                                height: 20px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+                    .profile {
+                        width: auto;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 0 !important;
+
+                        .nav-link {
+
+
+                            i {
+                                font-size: 24px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        // Sidebar
+        .main-sidebar {
+
+            // Brand Logo
+            .brand-link {
+                .brand-image {}
+            }
+
+        }
+
+
+        // Slider
+        .slider {
+            .container {
+                .row {
+                    .swiper {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .slide_inner {
+                                    a {
+                                        img {
+                                            
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+
+        // Footer
+        .footer {
+            .container {
+                .footer_wrap {
+                    .footer_left {
+                        .footer_logo {
+                            a {
+                                img {
+                                    max-width: 150px;
+                                }
+                            }
+                        }
+
+                        .copyright {
+                            a {}
+                        }
+                    }
+
+                    .footer_right {
+                        .address {
+                            h5 {
+                                font-size: 17px;
+
+                                a {}
+                            }
+                        }
+
+                        .hotline {
+                            span {
+                                font-size: 14px;
+
+                                a {}
+                            }
+                        }
+
+                        .mail {
+                            span {
+                                a {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    // Mobile devices
+    @media screen and (max-width: 575.98px) {
+
+        // Global responsive
+        .section_gap {
+            padding: 48px 0;
+        }
+
+        .section_title {
+            h4 {
+                font-size: 20px;
+            }
+        }
+
+        // Sidebar All Modals
+        .sidebar_modals {
+
+            .documents {
+                .modal-dialog {
+                    .modal-content {
+                        padding: 0px;
+
+                        .modal-header {
+                            .doc_instruction {
+                                .inst_btns {
+                                    .btn {
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .modal-body {
+                            .row {
+                                .col {
+
+
+                                    .doc_item {
+                                        margin-bottom: 20px;
+
+                                        .doc_title {
+                                            font-size: 12px;
+                                            width: 100%;
+                                        }
+
+                                        .doc_upload {
+                                            text-align: end;
+
+                                            .upload-btn-wrapper {
+                                                .btn {
+                                                    font-size: 11px;
+                                                }
+                                            }
+                                        }
+
+                                        .doc_name {}
+                                    }
+
+                                    .file_item {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        margin-bottom: 20px;
+
+                                        img {
+                                            width: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        // Dashboard
+        .dashboard {
+            padding: 50px 0 50px 0;
+
+            .container {
+
+                .row {
+
+                    // ads
+                    .ads {
+                        margin-bottom: 50px !important;
+
+                        .row {
+                            .add_banner {
+                                img {
+                                    width: 90%;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .dashboard_wrap {
+                    padding: 10px !important;
+                    border-radius: 4px !important;
+
+                    // masking
+                    .masking {
+                        .section_title {
+                            h4 {
+                                margin-top: 20px;
+                                margin-bottom: 0;
+                                text-align: center;
+                            }
+                        }
+
+                        .row {
+                            .col {
+
+                                .item {
+                                    .small-box {
+                                        display: flex;
+
+                                        p {
+                                            font-size: 10px;
+                                        }
+
+                                        h3 {
+                                            font-size: 20px;
+                                        }
+
+                                        .inner {
+                                            padding: 8px;
+                                        }
+
+                                        .icon {
+                                            i {
+                                                font-size: 16px !important;
+                                                right: 4px;
+                                                top: 4px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .select_masking {
+                                    .form-group {
+                                        width: 100% !important;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+
+        // Slider
+        .slider {
+            .container {
+                .row {
+                    .swiper {
+                        border-radius: 4px;
+                        padding: 10px;
+
+                        .swiper-wrapper {
+                            padding-bottom: 16px;
+
+                            .swiper-slide {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .slide_inner {
+                                    width: 100%;
+
+                                    a {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        img {
+                                            
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        // Send SMS
+        .sms {
+            .container {
+                .row {
+                    justify-content: center;
+
+                    form.sms_wrap {
+                        padding: 10px;
+                        border-radius: 4px;
+
+                        .row {
+                            .col {
+                                .type_sms {
+                                    .form-group {
+                                        margin-bottom: 0;
+
+                                        .type_sms_top {
+                                            .sms_template {
+                                                margin-bottom: 8px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .contact_input {
+                                    .more_input {
+                                        flex-direction: column;
+
+                                        .form-group {
+                                            margin-bottom: 10px;
+                                            padding: 3px 16px;
+                                            border-radius: 4px;
+                                            overflow-y: auto;
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+
+                                .group_summery {
+                                    margin-top: 20px;
+
+                                    .group_list {
+                                        padding: 12px 16px;
+                                        max-height: 150px;
+
+                                        .group_item {
+                                            padding: 4px 8px;
+                                            margin: 0 8px 8px 0;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        .submit_contact {
+                            padding-top: 24px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .message_btn {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Phone Book
+        .phonebook {
+            .container {
+                .row {
+                    .phobook_wrap {
+                        padding: 10px;
+                        border-radius: 4px;
+
+                        .row {
+                            .col {
+                                .phone_search {
+                                    .form-group {
+                                        .input-group {
+                                            .form-control {
+                                                // height: 50px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .contact_list {
+                                    padding: 10px;
+                                    border-radius: 4px;
+
+                                    .add_more {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: end;
+                                    }
+
+                                    .row {
+                                        .col {
+                                            .card {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                                flex-direction: row;
+                                                padding: 8px 16px;
+
+                                                .icon {
+                                                    i {
+                                                        font-size: 18px;
+                                                    }
+                                                }
+
+                                                .contact {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    background-color: transparent;
+
+                                                    .contact_name {
+                                                        font-weight: bold;
+                                                    }
+
+                                                    .contact_number {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .contact_import {
+                                    padding: 16px;
+                                    border-radius: 4px;
+
+                                    .import_top {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+
+                                    .file_upload {
+                                        flex-direction: column;
+
+                                        .contact_input {
+                                            margin-bottom: 16px;
+
+                                            .custom-file-input {
+                                                cursor: pointer;
+                                            }
+
+                                            .custom-file-label {
+                                                border: none;
+                                                height: 50px;
+                                                display: flex;
+                                                align-items: center;
+                                            }
+                                        }
+
+                                        .primary_btn {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            margin: 8px 0 0 0;
+                                        }
+                                    }
+
+                                    .download_btns {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        margin-top: 16px;
+
+                                        i {
+                                            padding-right: 4px;
+                                        }
+
+                                        .csv,
+                                        .excel {
+                                            .file_format {
+                                                padding-right: 6px;
+                                                font-size: 12px;
+                                                font-style: italic;
+                                            }
+
+                                        }
+
+                                        .csv {
+                                            margin: 0 0 16px 0;
+
+                                            span {}
+                                        }
+
+                                        .excel {}
+                                    }
+
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Group
+        .group {
+            .container {
+                .row {
+                    .group_wrap {
+                        .row {
+                            .col {
+                                .phone_search {
+                                    .form-group {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-between;
+
+                                        .add_group {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            flex-direction: column;
+
+                                            .input-group {
+                                                width: 100%;
+                                                margin-bottom: 16px;
+
+                                                .form-control {}
+                                            }
+                                        }
+
+                                        .primary_btn {
+                                            display: flex;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Report
+        .report {
+            .container {
+                .row {
+                    .report_wrap {
+                        padding: 10px;
+                        border-radius: 4px;
+
+                        .log_title {
+                            font-size: 16px;
+                        }
+
+                        .report_table {
+                            padding: 12px 12px 0 12px;
+                            margin-bottom: 30px;
+                            font-size: 12px;
+
+                            .table_title {
+                                font-size: 16px;
+                            }
+
+                            .table {
+                                margin-bottom: 0;
+
+                                thead {
+                                    tr {
+                                        th {}
+                                    }
+                                }
+
+                                tbody {
+
+                                    tr {
+                                        td {}
+                                    }
+                                }
+                            }
+                        }
+
+                        .date_filter {
+                            padding: 12px;
+                            margin-bottom: 30px;
+                            font-size: 10px;
+
+                            .log_title {
+                                margin-bottom: 20px;
+                            }
+
+                            .date_rang {
+                                justify-content: space-between;
+                                margin-bottom: 24px;
+
+                                .from {
+                                    margin-right: 0;
+
+                                    &:first-child {
+                                        margin-right: 12px;
+                                    }
+
+                                    .input-group {
+                                        .form-control {
+                                            padding: 20px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .show_maskting_data {
+                                .row {
+                                    max-height: 335px;
+
+                                    .col {
+                                        margin-bottom: 12px;
+
+                                        .masking_item {
+                                            padding: 16px;
+
+                                            .time {
+                                                height: 70px;
+                                                width: 70px;
+                                                padding: 6px;
+                                            }
+
+                                            .summery {
+                                                h6 {}
+
+                                                p {
+                                                    span {}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Extra Pages
+        .terms {
+            .container {
+                .section_title {
+                    h4 {
+                        text-transform: uppercase;
+                    }
+                }
+
+                .row {
+                    .content_wrap {
+                        padding: 10px;
+                        border-radius: 4px;
+                        font-size: 15px;
+
+                        .content_item {
+                            margin-bottom: 32px;
+
+                            h5 {
+                                font-weight: 600;
+                                margin-bottom: 12px;
+                            }
+
+                            p {
+                                margin-bottom: 12px;
+                            }
+
+                            ul {
+                                margin-bottom: 12px;
+                                padding-left: 24px;
+
+                                li {
+                                    margin-bottom: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // Footer
+        .footer {
+            padding-bottom: 24px;
+
+            .container {
+                .footer_wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: column-reverse;
+                    font-size: 14px;
+
+                    a {
+                        font-size: 14px;
+                    }
+
+                    .footer_left {
+                        .footer_logo {
+                            padding-bottom: 8px;
+
+                            a {
+                                img {
+                                    max-width: 150px;
+                                }
+                            }
+                        }
+
+                        .copyright {
+                            a {}
+                        }
+                    }
+
+                    .footer_right {
+                        .address {
+                            h5 {}
+                        }
+
+                        .hotline {
+                            display: flex;
+                            align-items: start;
+                            flex-direction: column;
+                            margin-bottom: 10px;
+
+                            span {
+                                a {}
+                            }
+                        }
+
+                        .mail {
+                            span {
+                                a {}
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+
+}

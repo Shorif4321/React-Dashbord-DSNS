@@ -1,0 +1,52 @@
+.terms{
+    .container{
+        .section_title{
+            h4{
+                text-transform: uppercase;
+            }
+        }
+
+        .row{
+            .content_wrap{
+                background-color: $color_white;
+                padding: 40px;
+                border-radius: $radius_md;
+
+                .content_item{
+                    margin-bottom: 32px;
+
+                    h5{
+                        font-weight: 600;
+                        margin-bottom: 12px;
+                    }
+
+                    p{
+                        margin-bottom: 12px;
+                    }
+
+                    ul{
+                        margin-bottom: 12px;
+                        list-style: auto;
+                        
+                        li{
+                            margin-bottom: 8px;
+                        }
+                    }
+
+                    .member_ship{
+                        h6,p{
+                            font-weight: 600;
+                        }
+
+                        h6{
+
+                        }
+                        p{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

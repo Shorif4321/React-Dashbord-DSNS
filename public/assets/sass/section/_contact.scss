@@ -1,0 +1,38 @@
+.contact{
+    background-color: $color_white_bg;
+
+    .container{
+        .row{
+            .group_wrap{
+                background-color: $color_white;
+
+                .row{
+                    .col{
+
+                        .download{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            padding: 24px;
+                            margin-top: 0;
+                            border-radius: $radius_sm;
+
+                            .group_name{
+                                margin-bottom: 16px;
+                                background-color: $color_white_bg;
+                            }
+                            
+                            .download_btns{ 
+                                .all_btn{
+                                    margin-right: 12px;
+                                }
+                                .add_btn{}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.header {
+    padding: 32px 0;
+    background-color: $color_nav;
+
+    .navbar {
+        .container {
+            .navbar-brand {
+                img {
+                    max-width: 150px;
+                }
+            }
+
+            .navbar-toggler{
+                border: none;
+                color: $color_primary;
+
+                &:hover{
+                    color: $color_warning;
+                }
+
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        width: 140px;
+                        transition: $transition;
+
+                        &:not(:last-child) {
+                            margin-right: 20px;
+                        }
+
+                        .nav-link {
+                            background: $color_primary;
+                            border-radius: $radius_md;
+                            padding: 8px 0;
+                            color: $color_white;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            transition: $transition;
+
+                            &:hover {
+                                background: $color_warning;
+                            }
+
+                            img {
+                                height: 25px;
+                                margin-bottom: 4px;
+                            }
+
+                            span{
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+
+                    .active{
+                        .nav-link{
+                            background-color: $color_warning;
+                        }
+                    }
+
+                    .profile{
+                        width: auto;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 48px;
+
+                        .nav-link{
+                            height: 50px;
+                            width: 50px;
+                            border-radius: $radius_circle;
+                            padding: 8px;
+                            color: $color_white;
+                            display: flex;
+                            flex-direction: unset;
+                            align-items: center;
+                            justify-content: center;
+
+                            &:hover{
+                                color: $color_white;
+                            }
+
+                            i{
+                                font-size: 24px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

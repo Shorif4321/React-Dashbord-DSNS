@@ -1,0 +1,145 @@
+.sidebar_modals {
+
+    .documents {
+        .modal-dialog {
+            .modal-content {
+                padding: 16px;
+
+                .modal-header {
+                    padding-bottom: 0;
+
+                    .title {
+                        .section_title {
+                            padding-bottom: 0;
+                        }
+
+                        .close {
+                            color: $color_danger;
+                            transition: $transition;
+                        }
+                    }
+
+                    .doc_instruction {
+                        margin-bottom: 24px;
+                        line-height: 1;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .instru_title {
+                            font-weight: 600;
+                        }
+
+                        .instru_title,
+                        .inst_btns {
+                            margin-bottom: 16px;
+                        }
+
+                        .inst_btns {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+
+                .modal-body {
+                    .row {
+                        .col {
+                            .doc_item {
+                                margin-bottom: 20px;
+
+                                .doc_title {
+                                    .doc_index {
+                                        height: 30px;
+                                        width: 30px;
+                                        border-radius: $radius_circle;
+                                        border: 1px solid ;
+                                        margin-right: 8px;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                    }
+
+
+                                }
+
+                                .doc_name {}
+                            }
+
+                            .file_item {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-direction: column;
+                                margin-bottom: 20px;
+
+                                img {
+                                    width: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Profile
+    .profile {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    .close {
+                        span {
+                            color: $color_danger;
+                        }
+                    }
+                }
+
+                .modal-body {
+                    .more_contact {
+                        .contact_input {
+                            .form-control {
+                                border: none;
+                                background-color: $color_white_bg;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .modal-footer {
+                display: flex;
+                justify-content: center;
+
+                .primary_btn {
+                    background-color: $color_success;
+                    color: $color_success;
+                    color: $color_white;
+                    border-color: $color_success;
+
+                    &:hover {
+                        background-color: $color_warning;
+                        color: $color_warning;
+                        border-color: $color_warning;
+                        color: $color_white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.documents {
+    .modal-dialog {
+        max-width: 750px;
+    }
+}

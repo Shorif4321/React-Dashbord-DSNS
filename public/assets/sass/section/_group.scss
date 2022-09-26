@@ -1,0 +1,40 @@
+.group {
+    background-color: $color_white_bg;
+
+    .container {
+        .row {
+            .group_wrap {
+                .row {
+                    .col {
+                        .phone_search {
+                            .form-group {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+
+                                .add_group{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+
+                                    .input-group {
+                                        width: 80%;
+
+                                        .form-control {
+                                            border-radius: $radius_sm;
+                                        }
+                                    }
+                                }
+                                
+
+                                .primary_btn {
+                                    display: flex;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

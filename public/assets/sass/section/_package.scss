@@ -1,0 +1,72 @@
+.package {
+    background-color: $color_white_bg;
+
+    .container {
+        .row {
+            .report_wrap {
+                background-color: $color_white;
+
+                .report_table {
+                    background-color: $color_white_bg;
+                    
+                    .table_title{
+                        text-align: center;
+                        font-weight: 600;
+                        background-color: $color_primary;
+                        color: $color_white;
+                        margin: 0;
+                        padding: 12px 0;
+                    }
+
+                    .pricing{
+                        padding-top: 16px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .price_item{
+                            &:not(:last-child){
+                                margin-bottom: 12px;
+                            } 
+                            .name{
+                            margin-right: 32px;
+                            }
+                            .amount{}
+                        }
+                    }
+
+                    .table {
+
+                        thead {
+                            text-align: center;
+                            border-radius: $radius_sm;
+                            color: $color_dark;
+
+                            tr {
+                                th {}
+                            }
+                        }
+
+                        thead.main_title{
+                            background-color: $color_primary;
+                        }
+
+                        thead.sub_title{
+                            background-color: $color_warning;
+                        }
+                        
+
+                        tbody {
+                            text-align: center;
+
+                            tr {
+                                td {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,266 @@
+.phonebook {
+    background-color: $color_white;
+
+    .container {
+        .row {
+            .phobook_wrap {
+                background-color: $color_white_bg;
+                padding: 40px;
+                border-radius: $radius_md;
+
+                .row {
+                    .col {
+                        .sms_group {}
+
+                        .phone_search {
+                            .form-group {
+                                .input-group {
+                                    .form-control {
+                                        border-radius: $radius_sm 0 0 $radius_sm;
+                                        height: 50px;
+                                    }
+
+                                    .input-group-prepend {
+                                        height: 50px;
+                                        border-radius: 0 $radius_sm $radius_sm 0;
+
+                                        .input-group-text {
+                                            border: none;
+                                            background-color: $color_white;
+                                            cursor: pointer;
+                                            border-radius: 0 $radius_sm $radius_sm 0;
+
+                                            i {
+                                                transition: $transition;
+                                                color: $color_primary;
+                                            }
+
+                                            &:hover {
+                                                i {
+                                                    color: $color_warning;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .form-control,
+                                    .input-group-prepend {
+                                        border: none;
+                                        background-color: $color_white;
+
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .contact_list {
+                            background-color: $color_white;
+                            padding: 12px;
+                            border-radius: $radius_sm;
+
+                            .add_more {
+                                display: flex;
+                                align-items: center;
+                                justify-content: end;
+
+                                .add_icon {
+                                    i {
+                                        transition: $transition;
+                                        padding-right: 4px;
+                                        color: $color_primary;
+                                    }
+
+                                    &:hover {
+                                        i {
+                                            color: $color_warning;
+                                        }
+                                    }
+                                }
+
+                                .modal {
+                                    .modal-dialog {
+                                        .modal-content {
+                                            .modal-header {
+                                                .close {
+                                                    span {
+                                                        color: $color_danger;
+                                                    }
+                                                }
+                                            }
+
+                                            .modal-body {
+                                                .more_contact {
+                                                    .contact_input {
+                                                        .form-control {
+                                                            border: none;
+                                                            background-color: $color_white_bg;
+
+                                                            &:not(:last-child) {
+                                                                margin-bottom: 8px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .modal-footer {
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .primary_btn {
+                                                background-color: $color_success;
+                                                color: $color_success;
+                                                color: $color_white;
+                                                border-color: $color_success;
+
+                                                &:hover {
+                                                    background-color: $color_warning;
+                                                    color: $color_warning;
+                                                    border-color: $color_warning;
+                                                    color: $color_white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .row {
+                                max-height: 300px;
+                                overflow-y: auto;
+
+                                .col {
+                                    .card {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        flex-direction: row;
+                                        padding: 8px 16px;
+                                        background-color: $color_white_bg;
+
+                                        &:hover {
+                                            .delete_icon {
+                                                color: $color_warning;
+                                            }
+                                        }
+
+                                        .icon {
+                                            i {
+                                                font-size: 18px;
+                                            }
+                                        }
+
+                                        .user_icon {
+                                            color: $color_primary;
+                                        }
+
+                                        .delete_icon {
+                                            cursor: pointer;
+                                            color: $color_danger;
+                                            transition: $transition;
+
+                                            &:hover {
+                                                color: $color_warning;
+                                            }
+                                        }
+
+                                        .contact {
+                                            display: flex;
+                                            flex-direction: column;
+                                            background-color: transparent;
+
+                                            .contact_name {
+                                                font-weight: bold;
+                                            }
+
+                                            .contact_number {}
+                                        }
+                                    }
+                                }
+                            }
+
+                            .download_btns {
+                                padding: 24px 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .excel {}
+                            }
+
+
+                        }
+
+                        .contact_import {
+                            background-color: transparent;
+                            padding: 12px;
+                            border-radius: $radius_sm;
+
+                            .import_top {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                .add_icon {
+                                    cursor: pointer;
+
+                                    i {
+                                        margin-right: 6px;
+                                        color: $color_primary
+                                    }
+                                }
+                            }
+
+                            .file_upload {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                .contact_input {
+                                    .custom-file-input {
+                                        cursor: pointer;
+                                    }
+
+                                    .custom-file-label {
+                                        background-color: $color_white;
+                                        border: none;
+                                        height: 50px;
+                                        display: flex;
+                                        align-items: center;
+                                        margin-bottom: 0;
+                                        padding: 16px;
+
+                                        &::after {
+                                            content: "";
+                                            background-color: transparent;
+                                            height: inherit;
+                                            display: flex;
+                                            align-items: center;
+
+                                        }
+                                    }
+                                }
+
+                                .primary_btn {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    margin: 10px 0 0 16px;
+                                    
+
+                                    i {
+                                        padding-right: 6px;
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

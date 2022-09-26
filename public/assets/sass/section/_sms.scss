@@ -1,0 +1,182 @@
+.sms {
+    background-color: $color_white_bg;
+
+    .container {
+        .row {
+            justify-content: center;
+
+            form.sms_wrap {
+                background-color: $color_white;
+                padding: 40px;
+                border-radius: $radius_md;
+
+                .row {
+                    .col {
+                        .type_sms {
+                            .form-group {
+                                margin-bottom: 0;
+
+                                .type_sms_top {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+
+                                    .sms_template {
+                                        margin-bottom: 8px;
+                                        
+
+                                        &:hover{
+                                            i{
+                                                color: $color_warning;
+                                            }
+                                        }
+
+                                        i {
+                                            padding-right: 4px;
+                                            color: $color_primary;
+                                            transition: $transition;
+                                        }
+                                    }
+
+                                    .modal {
+                                        .modal-dialog {
+                                            .modal-content {
+                                                .modal-header {
+                                                    .close{
+                                                        color: $color_danger;
+                                                        transition: $transition;
+                                                    }
+                                                }
+
+                                                .modal-body {
+                                                    .template_btns {
+                                                        .primary_btn {
+                                                            &:last-child{
+                                                                background-color: $color_success;
+                                                                border-color: $color_success;
+
+                                                                &:hover{
+                                                                    background-color: $color_warning;
+                                                                    border-color: $color_warning;;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .template_list{
+                                                        max-height: 180px;
+                                                        overflow-y: auto;
+
+                                                        .list-group{
+                                                            .list-group-item{
+                                                                cursor: pointer;
+                                                                transition: $transition;
+
+                                                                .list_index{
+                                                                    padding: 4px 6px;
+                                                                    background-color: $color_primary;
+                                                                    color: $color_white;
+                                                                    height: 20px;
+                                                                    width: 20px;
+                                                                    border-radius: 2px;
+                                                                }
+
+                                                                .list_text{
+                                                                    margin-left: 10px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                textarea.form-control {
+                                    background-color: $color_white_bg;
+                                    border-radius: $radius_sm;
+                                    border: none;
+                                }
+                            }
+                        }
+
+                        .sms_group {
+                            .form-group {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        .contact_input {
+                            .more_input {
+                                // display: flex;
+                                // align-items: center;
+                                // justify-content: space-between;
+
+                                .form-group {
+                                    margin-bottom: 0;
+                                    padding: 3px 16px 3px 12px;
+                                    border-radius: 4px;
+                                    background-color: $color_white_bg;
+                                    overflow-y: auto;
+                                    // width: 80%;
+                                }
+                            }
+                        }
+
+                        .group_summery {
+                            margin-top: 20px;
+
+                            .group_list {
+                                background-color: $color_white_bg;
+                                padding: 12px 16px;
+                                border-radius: $radius_sm;
+                                max-height: 150px;
+                                overflow-y: auto;
+                                text-align: justify;
+
+                                .group_item {
+                                    background-color: $color_primary;
+                                    color: $color_white;
+                                    display: inline-block;
+                                    padding: 4px 8px;
+                                    margin: 0 8px 8px 0;
+                                    border-radius: $radius_sm;
+                                    cursor: pointer;
+                                    transition: $transition;
+                                    font-size: 15px;
+
+                                    &:hover {
+                                        background-color: $color_disable;
+                                    }
+                                }
+
+                                .deactive {
+                                    background-color: $color_disable;
+
+                                    &:hover {
+                                        background-color: $color_primary;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+                .submit_contact {
+                    padding-top: 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .message_btn {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

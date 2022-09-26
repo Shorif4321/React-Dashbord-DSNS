@@ -1,0 +1,54 @@
+
+
+/*** 01 Google Fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+/*** 02 Helper ***/
+// assets > scss -> helper -> _variable.scss
+@import "./helper/variable";
+// assets > scss -> helper -> _mixin.scss
+@import "./helper/mixin";
+// assets > scss -> helper -> _global.scss
+@import "./helper/global";
+
+
+
+/*** 03 Components ***/
+// assets > scss -> components ->
+@import "./components/buttons";
+@import "./components/sidebar_modals";
+
+
+/*** 04 Layout ***/
+// assets > scss -> layout -> _header.scss
+@import "./layout/header";
+// assets > scss -> layout -> _nav.scss
+@import "./layout/nav";
+// assets > scss -> layout -> _sidebar.scss
+@import "./layout/sidebar";
+// assets > scss -> layout -> _footer.scss
+@import "./layout/footer";
+
+/*** 05 Section ***/
+// assets > scss > section
+@import "./section/dashboard";
+@import "./section/slider";
+@import "./section/sms";
+@import "./section/phonebook";
+@import "./section/group";
+@import "./section/report";
+@import "./section/package";
+
+@import "./section/contact";
+
+/*** 06 Pages ***/
+// assets > scss > pages
+@import "./pages/index";
+@import "./pages/extra_pages";
+
+
+/*** 07 Login ***/
+// assets > scss > login
+@import "./login/signin";
+

@@ -1,0 +1,59 @@
+.main-sidebar{
+    position: fixed !important;
+
+    // Brand Logo
+    .brand-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .brand-image{
+            max-height: 35px;
+        }
+    }
+
+    .sidebar{
+        position: fixed;
+        overflow-y: auto;
+        
+        // user
+        .user-panel{
+            border-bottom: none;
+        }
+
+        // nav
+        nav{
+            ul.nav{
+                li.nav-item{
+                    .nav-link{
+                        transition: $transition;
+                        display: flex;
+                        align-items: center;
+
+                        i{
+                            // color: $color_primary;
+                        }
+                        p{}
+                    }
+
+                    .active{
+                        background-color: $color_primary;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+// Sidebar Collapse
+.sidebar-collapse{
+    .brand-link{
+        .brand-image{
+            max-height: 20px;
+        }
+    }
+}

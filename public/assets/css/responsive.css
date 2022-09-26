@@ -1,0 +1,377 @@
+@media screen and (max-width: 991.98px) {
+  body .section_gap {
+    padding: 64px 0;
+  }
+  body .header {
+    padding: 8px 0;
+  }
+  body .header .collapse .navbar-nav .nav-item {
+    margin-top: 10px;
+    width: 80px !important;
+    transition: none;
+  }
+  body .header .collapse .navbar-nav .nav-item .nav-link img {
+    height: 20px;
+    margin-bottom: 0;
+  }
+  body .header .collapse .navbar-nav .profile {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 0 !important;
+  }
+  body .header .collapse .navbar-nav .profile .nav-link i {
+    font-size: 24px;
+  }
+  body .footer .container .footer_wrap .footer_left .footer_logo a img {
+    max-width: 150px;
+  }
+  body .footer .container .footer_wrap .footer_right .address h5 {
+    font-size: 17px;
+  }
+  body .footer .container .footer_wrap .footer_right .hotline span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  body .section_gap {
+    padding: 48px 0;
+  }
+  body .section_title h4 {
+    font-size: 20px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content {
+    padding: 0px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-header .doc_instruction .inst_btns .btn {
+    font-size: 11px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .doc_item {
+    margin-bottom: 20px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .doc_item .doc_title {
+    font-size: 12px;
+    width: 100%;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .doc_item .doc_upload {
+    text-align: end;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .doc_item .doc_upload .upload-btn-wrapper .btn {
+    font-size: 11px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .file_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  body .sidebar_modals .documents .modal-dialog .modal-content .modal-body .row .col .file_item img {
+    width: 50px;
+  }
+  body .dashboard {
+    padding: 50px 0 50px 0;
+  }
+  body .dashboard .container .row .ads {
+    margin-bottom: 50px !important;
+  }
+  body .dashboard .container .row .ads .row .add_banner img {
+    width: 90%;
+  }
+  body .dashboard .container .dashboard_wrap {
+    padding: 10px !important;
+    border-radius: 4px !important;
+  }
+  body .dashboard .container .dashboard_wrap .masking .section_title h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .item .small-box {
+    display: flex;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .item .small-box p {
+    font-size: 10px;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .item .small-box h3 {
+    font-size: 20px;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .item .small-box .inner {
+    padding: 8px;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .item .small-box .icon i {
+    font-size: 16px !important;
+    right: 4px;
+    top: 4px;
+  }
+  body .dashboard .container .dashboard_wrap .masking .row .col .select_masking .form-group {
+    width: 100% !important;
+  }
+  body .slider .container .row .swiper {
+    border-radius: 4px;
+    padding: 10px;
+  }
+  body .slider .container .row .swiper .swiper-wrapper {
+    padding-bottom: 16px;
+  }
+  body .slider .container .row .swiper .swiper-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .slider .container .row .swiper .swiper-wrapper .swiper-slide .slide_inner {
+    width: 100%;
+  }
+  body .slider .container .row .swiper .swiper-wrapper .swiper-slide .slide_inner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .sms .container .row {
+    justify-content: center;
+  }
+  body .sms .container .row form.sms_wrap {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  body .sms .container .row form.sms_wrap .row .col .type_sms .form-group {
+    margin-bottom: 0;
+  }
+  body .sms .container .row form.sms_wrap .row .col .type_sms .form-group .type_sms_top .sms_template {
+    margin-bottom: 8px;
+  }
+  body .sms .container .row form.sms_wrap .row .col .contact_input .more_input {
+    flex-direction: column;
+  }
+  body .sms .container .row form.sms_wrap .row .col .contact_input .more_input .form-group {
+    margin-bottom: 10px;
+    padding: 3px 16px;
+    border-radius: 4px;
+    overflow-y: auto;
+    width: 100%;
+  }
+  body .sms .container .row form.sms_wrap .row .col .group_summery {
+    margin-top: 20px;
+  }
+  body .sms .container .row form.sms_wrap .row .col .group_summery .group_list {
+    padding: 12px 16px;
+    max-height: 150px;
+  }
+  body .sms .container .row form.sms_wrap .row .col .group_summery .group_list .group_item {
+    padding: 4px 8px;
+    margin: 0 8px 8px 0;
+  }
+  body .sms .container .row form.sms_wrap .submit_contact {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .sms .container .row form.sms_wrap .submit_contact .message_btn {
+    display: flex;
+    align-items: center;
+  }
+  body .phonebook .container .row .phobook_wrap {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list .add_more {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list .row .col .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 8px 16px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list .row .col .card .icon i {
+    font-size: 18px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list .row .col .card .contact {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_list .row .col .card .contact .contact_name {
+    font-weight: bold;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import {
+    padding: 16px;
+    border-radius: 4px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .import_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .file_upload {
+    flex-direction: column;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .file_upload .contact_input {
+    margin-bottom: 16px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .file_upload .contact_input .custom-file-input {
+    cursor: pointer;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .file_upload .contact_input .custom-file-label {
+    border: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .file_upload .primary_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0 0 0;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .download_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .download_btns i {
+    padding-right: 4px;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .download_btns .csv .file_format,
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .download_btns .excel .file_format {
+    padding-right: 6px;
+    font-size: 12px;
+    font-style: italic;
+  }
+  body .phonebook .container .row .phobook_wrap .row .col .contact_import .download_btns .csv {
+    margin: 0 0 16px 0;
+  }
+  body .group .container .row .group_wrap .row .col .phone_search .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .group .container .row .group_wrap .row .col .phone_search .form-group .add_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  body .group .container .row .group_wrap .row .col .phone_search .form-group .add_group .input-group {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  body .group .container .row .group_wrap .row .col .phone_search .form-group .primary_btn {
+    display: flex;
+  }
+  body .report .container .row .report_wrap {
+    padding: 10px;
+    border-radius: 4px;
+  }
+  body .report .container .row .report_wrap .log_title {
+    font-size: 16px;
+  }
+  body .report .container .row .report_wrap .report_table {
+    padding: 12px 12px 0 12px;
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  body .report .container .row .report_wrap .report_table .table_title {
+    font-size: 16px;
+  }
+  body .report .container .row .report_wrap .report_table .table {
+    margin-bottom: 0;
+  }
+  body .report .container .row .report_wrap .date_filter {
+    padding: 12px;
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+  body .report .container .row .report_wrap .date_filter .log_title {
+    margin-bottom: 20px;
+  }
+  body .report .container .row .report_wrap .date_filter .date_rang {
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  body .report .container .row .report_wrap .date_filter .date_rang .from {
+    margin-right: 0;
+  }
+  body .report .container .row .report_wrap .date_filter .date_rang .from:first-child {
+    margin-right: 12px;
+  }
+  body .report .container .row .report_wrap .date_filter .date_rang .from .input-group .form-control {
+    padding: 20px;
+  }
+  body .report .container .row .report_wrap .date_filter .show_maskting_data .row {
+    max-height: 335px;
+  }
+  body .report .container .row .report_wrap .date_filter .show_maskting_data .row .col {
+    margin-bottom: 12px;
+  }
+  body .report .container .row .report_wrap .date_filter .show_maskting_data .row .col .masking_item {
+    padding: 16px;
+  }
+  body .report .container .row .report_wrap .date_filter .show_maskting_data .row .col .masking_item .time {
+    height: 70px;
+    width: 70px;
+    padding: 6px;
+  }
+  body .terms .container .section_title h4 {
+    text-transform: uppercase;
+  }
+  body .terms .container .row .content_wrap {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  body .terms .container .row .content_wrap .content_item {
+    margin-bottom: 32px;
+  }
+  body .terms .container .row .content_wrap .content_item h5 {
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  body .terms .container .row .content_wrap .content_item p {
+    margin-bottom: 12px;
+  }
+  body .terms .container .row .content_wrap .content_item ul {
+    margin-bottom: 12px;
+    padding-left: 24px;
+  }
+  body .terms .container .row .content_wrap .content_item ul li {
+    margin-bottom: 8px;
+  }
+  body .footer {
+    padding-bottom: 24px;
+  }
+  body .footer .container .footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    font-size: 14px;
+  }
+  body .footer .container .footer_wrap a {
+    font-size: 14px;
+  }
+  body .footer .container .footer_wrap .footer_left .footer_logo {
+    padding-bottom: 8px;
+  }
+  body .footer .container .footer_wrap .footer_left .footer_logo a img {
+    max-width: 150px;
+  }
+  body .footer .container .footer_wrap .footer_right .hotline {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

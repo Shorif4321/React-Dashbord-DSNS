@@ -1,0 +1,177 @@
+.signin {
+    background: $color_primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section {
+        position: relative;
+        padding: 32px 0;
+
+        .container {
+            position: relative;
+
+            .row {
+                .card {
+                    max-width: 400px;
+
+                    .logos {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-bottom: 24px;
+
+                        .dsms_logo,
+                        .dit_logo {
+                            img {
+                                max-width: 100px;
+                            }
+                        }
+
+                        .dsms_logo {
+                            img{
+                                height: 24px;
+                            }
+                        }
+
+                        .dit_logo {}
+
+                    }
+
+                    small{
+                        color: $color_disable;
+                    }
+
+                    .link {
+                        color: $color_primary;
+                        transition: $transition;
+
+                        &:hover {
+                            color: $color_warning;
+                        }
+                    }
+
+                    h4 {
+                        color: $color_primary;
+                        font-weight: 600;
+                    }
+
+                    .card-body {
+                        .inputs {
+
+                            .input-group,
+                            input,
+                            .input-group-text {
+                                border: none;
+                                background-color: #dceaf3;
+                                border-radius: $radius_sm;
+                                padding: 6px;
+                            }
+
+                            .input-group {
+                                .input-group-text {
+                                    i {
+                                        color: $color_primary;
+                                    }
+                                }
+
+                                .user-icon {
+                                    border-right: none;
+                                }
+
+                                .show-pass {
+                                    border-left: none;
+                                    cursor: pointer;
+                                    width: 40px;
+                                    padding: 0;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+
+                                .password {
+                                    border-right: none;
+                                }
+
+                                .form-control {
+                                    border-left: none;
+
+                                    &:focus {
+                                        border-color: #dceaf3;
+                                        box-shadow: none;
+                                    }
+                                }
+
+                                input[password] {
+                                    border-right: none;
+                                }
+                            }
+
+                            .form-check {
+                                .form-check-input {
+                                    transition: $transition;
+                                    cursor: pointer;
+
+                                    &:focus {
+                                        box-shadow: none;
+                                    }
+
+                                    &:checked {
+                                        background-color: $color_primary;
+                                        border-color: $color_primary;
+                                    }
+                                }
+                            }
+                        }
+
+                        .otp{
+                            margin-bottom: 24px;
+
+                            .pincode-input-container{
+                                .pincode-input-text{
+                                    background-color: transparent;
+                                    border-radius: 0;
+                                    border-bottom: 3px solid $color_success;
+                                    box-shadow: none;
+                                    width: 16px;
+
+                                    &:not(:last-child){
+                                        margin-right: 6px;
+                                    }
+                                }
+                               
+                            }
+
+                            .pincode-input-error{
+                                padding-top: 6px;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    // RESPONSIVE
+    // mobile
+    @media (max-width: 575px) {
+        section {
+            .container {
+                .row {
+                    .card {
+
+                        a,
+                        span,
+                        button,
+                        .form-check,
+                        .form-control {
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

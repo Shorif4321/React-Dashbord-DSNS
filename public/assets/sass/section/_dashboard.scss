@@ -1,0 +1,64 @@
+.dashboard {
+    background-color: $color_white;
+
+    .container {
+        .row {
+            .dashboard_wrap {
+                background-color: $color_white_bg;
+                padding: 40px;
+                border-radius: $radius_md;
+
+
+
+                // masking
+                .masking {
+                    .section_title {
+                        h4 {
+                            margin-top: 20px;
+                            margin-bottom: 0;
+                            text-align: start;
+                        }
+                    }
+
+                    .row {
+                        .col {
+                            display: grid;
+                            align-items: center;
+
+                            .item {
+                                .form-group {}
+
+                                .small-box {
+
+                                    h3 {
+                                        font-size: 22px;
+                                    }
+
+                                    .inner {}
+
+                                    .icon {
+                                        i {
+                                            font-size: 40px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .select_masking {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .form-group {
+                                    width: 60%;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

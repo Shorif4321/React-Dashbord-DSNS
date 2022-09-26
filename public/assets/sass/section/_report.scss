@@ -1,0 +1,165 @@
+.report {
+    background-color: $color_white;
+
+    .container {
+        .row {
+            justify-content: center;
+
+            .report_wrap {
+                background-color: $color_white_bg;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: $radius_md;
+                padding: 40px;
+
+                .report_table {
+                    width: 100%;
+                    padding: 32px;
+                    border-radius: $radius_sm;
+                    margin-bottom: 40px;
+                    background-color: $color_white;
+
+                    .log_title {
+                        text-align: center;
+                        margin-bottom: 20px;
+                        font-weight: bold;
+                    }
+
+                    .table {
+                        margin-bottom: 0;
+
+                        thead {
+                            background-color: $color_primary;
+                            color: $color_white;
+                            text-align: center;
+                            border-radius: $radius_sm;
+
+                            tr {
+                                th {}
+                            }
+                        }
+
+                        tbody {
+                            text-align: center;
+
+                            tr {
+                                // display: flex;
+                                // align-items: center;
+                                // justify-content: space-between;
+
+                                td {}
+                            }
+                        }
+                    }
+                }
+
+                .date_filter {
+                    background-color: $color_white;
+                    padding: 32px;
+                    border-radius: $radius_sm;
+                    width: 100%;
+
+                    .log_title {
+                        text-align: center;
+                        margin-bottom: 20px;
+                        font-weight: bold;
+                    }
+
+                    .date_rang {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 24px;
+
+
+                        .from {
+                            margin-right: 20px;
+
+                            .input-group {
+                                .form-control {
+                                    background-color: $color_primary;
+                                    color: $color_white;
+                                    padding: 24px;
+                                    border-radius: $radius_sm;
+                                    transition: $transition;
+                                    cursor: pointer;
+
+                                    &::placeholder {
+                                        color: $color_white;
+                                    }
+
+                                    &:focus,
+                                    &:hover {
+                                        background-color: $color_warning;
+                                    }
+
+                                }
+                            }
+                        }
+
+                        .to {}
+                    }
+
+                    .show_maskting_data {
+                        .row {
+                            max-height: 335px;
+                            overflow-y: auto;
+
+                            .col {
+                                margin-bottom: 12px;
+
+                                .masking_item {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    background-color: $color_white_bg;
+                                    padding: 16px;
+                                    border-radius: $radius_sm;
+
+                                    .time {
+                                        height: 70px;
+                                        width: 70px;
+                                        border-radius: $radius_circle;
+                                        background-color: $color_white;
+                                        padding: 6px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        .date {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                            font-size: 15px;
+                                            font-weight: 600;
+
+                                            .day {}
+
+                                            .month {
+                                                text-transform: uppercase;
+                                            }
+
+                                        }
+                                    }
+
+
+
+                                    .summery {
+                                        h6 {}
+
+                                        p {
+                                            span {}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
